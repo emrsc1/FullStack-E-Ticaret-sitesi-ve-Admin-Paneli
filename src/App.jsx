@@ -1,11 +1,15 @@
 import './App.css'
-import Homepage from './components/pages/HomePage'
+
+// import HomePage from './pages/HomePage'
+// import ProductDetailsPage from './pages/ProductDetailsPage'
+import CartPage from './pages/CartPage'
 function App() {
 
   return (
-    <>
-   <Homepage/>  
-    </>
+   
+
+   <CartPage/>
+    
   )
 }
 
