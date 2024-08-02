@@ -1,6 +1,5 @@
-import Auth from '../Auth/Auth'
-import Policy from '../Layout/Policy'
-
+import Auth from '../components/Auth/Auth'
+import Policy from '../components/Layout/Policy'
 const AuthPage = () => {
   return (
     <>

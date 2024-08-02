@@ -1,15 +1,11 @@
-import Footer from "../Layout/Footer"
-import Header from "../Layout/Header"
-import Policy from "../Layout/Policy"
-import Contact from "../Layout/Contact"
+import Contact from '../components/Layout/Contact'
+import Policy from '../components/Layout/Policy'
 
 const ContactPage = () => {
   return (
     <>
-    <Header/>
     <Contact/>
     <Policy/>
-    <Footer/>
     </>
   )
 }

@@ -1,4 +1,4 @@
-import Blogs from "../Layout/Blogs"
+import Blogs from '../components/Layout/Blogs'
 
 
 const BlogPage = () => {

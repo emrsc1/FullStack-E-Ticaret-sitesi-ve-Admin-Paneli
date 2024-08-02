@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
-import Header from '../components/Layout/Header'
-import Footer from '../components/Layout/Footer'
+import Header from '../src/components/Layout/Header'
+import Footer from '../src/components/Layout/Footer'
 import PropTypes from 'prop-types'
-import Search from '../components/Modals/Search/Search'
-import Dialog from '../components/Modals/Dialog/Dialog'
+import Search from '../src/components/Modals/Search/Search'
+import Dialog from '../src/components/Modals/Dialog/Dialog'
 
 const MainLayout = ({children}) => {
   const [isSearchShow,setIsSearchShow]=useState(false)

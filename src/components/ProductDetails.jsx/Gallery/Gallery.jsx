@@ -43,7 +43,7 @@ const Gallery = () => {
     return (
         <div className="product-gallery">
             <div className="single-image-wrapper">
-                <img src={activeImage.img} id="single-image" alt="" />
+                <img src={activeImage.img} id="single-image" alt="" onError={(e) => console.log('Image failed to load:', e.target.src)}/>
             </div>
             <div className="product-thumb">
                 <div className="glide__track" data-glide-el="track">
@@ -57,7 +57,7 @@ const Gallery = () => {
                         })}}>
                             <img src={itemImg}
                              alt=""
-                             className={`img-fluid ${activeImage.img===index ?"active":""}`}
+                             className={`img-fluid ${activeImage.imgIndex===index ?"active":""}`}
                              
                              />
                         </li>
